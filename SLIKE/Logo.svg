@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 515.02 302.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-7, .cls-2 {
+        fill: #00aeef;
+      }
+
+      .cls-7, .cls-8 {
+        font-family: Metropolis-ExtraBold, Metropolis;
+        font-size: 65.32px;
+        font-weight: 700;
+      }
+
+      .cls-9 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-3, .cls-8 {
+        fill: #1c75bc;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: #f7941d;
+      }
+
+      .cls-11 {
+        mask: url(#mask-1);
+      }
+
+      .cls-12 {
+        mask: url(#mask);
+      }
+
+      .cls-6 {
+        fill: #f04923;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="478.45" y1="586.2" x2="563.7" y2="671.72" gradientTransform="translate(803.69 710.31) rotate(-179.37)" gradientUnits="userSpaceOnUse">
+      <stop offset=".06" stop-color="#009bde"/>
+      <stop offset="1" stop-color="#002a67"/>
+    </linearGradient>
+    <mask id="mask" x="212.44" y="0" width="177.91" height="301.58" maskUnits="userSpaceOnUse">
+      <path class="cls-1" d="M339.21,91.35L267.44,14.43l-19.03,53.98,78.68,84.33s32.75-33.4,12.11-61.39Z"/>
+    </mask>
+    <linearGradient id="linear-gradient-2" x1="59.04" y1="184.28" x2="144.28" y2="269.79" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <mask id="mask-1" x="0" y=".57" width="176.59" height="301.64" maskUnits="userSpaceOnUse">
+      <path class="cls-4" d="M51.83,211.91l72.59,76.12,18.44-54.19-79.59-83.45s-32.38,33.76-11.44,61.52Z"/>
+    </mask>
+  </defs>
+  <g>
+    <g>
+      <path class="cls-5" d="M380.39,135.63h0c9.68,10.14,9.39,26.3-.64,36.09l-126.11,123.06c-10.03,9.79-26,9.5-35.68-.65h0c-9.68-10.14-9.39-26.3.64-36.09l126.11-123.06c10.03-9.79,26-9.5,35.68.65Z"/>
+      <path class="cls-5" d="M379.75,171.71h0c-10.03,9.79-26,9.5-35.68-.65l-121.67-127.54c-9.68-10.14-9.39-26.3.64-36.09h0c10.03-9.79,26-9.5,35.68.65l121.67,127.54c9.68,10.14,9.39,26.3-.64,36.09Z"/>
+    </g>
+    <g class="cls-12">
+      <g>
+        <path class="cls-6" d="M383.47,136.9h0c9.56,10.25,9.1,26.4-1.03,36.08l-127.45,121.64c-10.14,9.67-26.11,9.21-35.67-1.05h0c-9.56-10.25-9.1-26.4,1.03-36.08l127.45-121.64c10.14-9.67,26.11-9.21,35.67,1.05Z"/>
+        <path class="cls-6" d="M378.85,172.98h0c-10.14,9.67-26.11,9.21-35.67-1.05L222.91,43.04c-9.56-10.25-9.1-26.4,1.03-36.08h0c10.14-9.67,26.11-9.21,35.67,1.05l120.27,128.9c9.56,10.25,9.1,26.4-1.03,36.08Z"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g>
+      <path class="cls-2" d="M7.07,166.85h0c-9.67-10.14-9.39-26.3.64-36.09L133.84,7.72c10.03-9.79,26-9.49,35.68.65h0c9.67,10.14,9.39,26.3-.64,36.09l-126.12,123.04c-10.03,9.79-26,9.49-35.68-.65Z"/>
+      <path class="cls-2" d="M7.71,130.76h0c10.03-9.79,26-9.49,35.68.65l121.66,127.56c9.67,10.14,9.39,26.3-.64,36.09h0c-10.03,9.79-26,9.49-35.68-.65L7.07,166.85c-9.67-10.14-9.39-26.3.64-36.09Z"/>
+    </g>
+    <g class="cls-11">
+      <g>
+        <path class="cls-3" d="M7.07,166.85h0c-9.67-10.14-9.39-26.3.64-36.09L133.84,7.72c10.03-9.79,26-9.49,35.68.65h0c9.67,10.14,9.39,26.3-.64,36.09l-126.12,123.04c-10.03,9.79-26,9.49-35.68-.65Z"/>
+        <path class="cls-3" d="M7.71,130.76h0c10.03-9.79,26-9.49,35.68.65l121.66,127.56c9.67,10.14,9.39,26.3-.64,36.09h0c-10.03,9.79-26,9.49-35.68-.65L7.07,166.85c-9.67-10.14-9.39-26.3.64-36.09Z"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <text class="cls-8" transform="translate(104.14 196.26)"><tspan x="0" y="0">WEB H</tspan><tspan class="cls-10" x="225.69" y="0">A</tspan><tspan x="269.07" y="0">VEN</tspan></text>
+    <text class="cls-7" transform="translate(99.68 196.26)"><tspan x="0" y="0">WEB H</tspan><tspan class="cls-9" x="225.69" y="0">A</tspan><tspan x="269.07" y="0">VEN</tspan></text>
+  </g>
+</svg>
