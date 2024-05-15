@@ -63,16 +63,24 @@ border: none;
         width: 90%;
     }
     div.ourStory h1, div.whoAreWe h1{
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .container-company{
         flex-direction: column;
+        gap: 10px 10px;
     }
     div.founder, div.company{
-        margin: 20px auto;
-        width: 80%;
+        margin: 10px auto;
+        width: 95%;
+        text-align: center;
+        
     }
+    div.company p{
+        text-align: center;
+    }
+
     div.about-us-title{
-        font-size: 4.5em;
+        font-size: 3.5em;
+        width: 100%;
     }
 }
