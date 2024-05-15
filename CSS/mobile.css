@@ -92,4 +92,12 @@ border: none;
     div.slogan{
         font-size: 1.3em;
     }
+    div.contact-columns{
+        flex-direction: column;
+        gap:30px;
+    }
+    div.contact-column{
+        width: 70%;
+        margin: 0 auto;
+    }
 }

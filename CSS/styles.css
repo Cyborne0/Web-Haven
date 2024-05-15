@@ -33,9 +33,7 @@ html {
     scroll-behavior: smooth;
 
 }
-html *{
-    
-}
+
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -533,9 +531,7 @@ div.founder{
     width: 30%;
     height: 411px;
 }
-div.founder .card{
 
-}
 h1.about-us.header{
     text-align: center;
     margin: 20px auto;
@@ -616,4 +612,69 @@ div.company p{
     text-align: justify;
     font-style: italic;
     font-size: 20px;
+}
+div.contact-columns{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+    margin: 20px auto;
+    z-index: 900;
+    gap: 10%;
+}
+div.icon{
+    font-size: 40px;
+    
+    height: 90px;
+    width: 90px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    background-color: rgb(255, 195, 143);
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+div.contact-card:hover div.icon{
+    background-color: rgb(253, 141, 14);
+    color: white;
+}
+
+div.text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+    padding: 20px;
+    border-radius: 20px;
+    
+    margin-top: 20px;
+}
+div.text h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+div.contact-card{
+    background-color: rgba(0, 162, 255, 0.3);
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0px 16px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+div.phone-text h3, div.email-text h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+div.phone-text h2, div.email-text h2{
+    font-size: 30px;
+    font-weight: bold;
 }
