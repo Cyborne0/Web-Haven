@@ -69,6 +69,7 @@ div.container.tehnologije img{
     top: 0;
     z-index: 2000;
     width: 100%;
+    
    
     
     
@@ -115,7 +116,7 @@ div.container.tehnologije img{
     text-decoration: none;
     
     padding: 10px 20px !important; 
-    margin: 0 5px;
+    margin: 0 0px;
     color: rgb(171, 171, 171);
     font-size: 20px;
     transition: all 0.5s ease;
@@ -126,20 +127,20 @@ div.container.tehnologije img{
 .navbar li a:hover{
     background-color: #178bff;
     border-radius: 5px;
-    margin: 0 5px;
+    
     color: white;
 }
 .navbar a.active-link{
     background-color: #0472e0;
     border-radius: 5px;
-    margin: 0 5px;
+    margin: 0 0px;
     color: white;
 }
 
 a.dropdown-toggle.show{
     background-color: #0472e0;
     border-radius: 5px;
-    margin: 0 0px;
+    margin: 0px 0px;
     color: white !important;
 }
 footer{
