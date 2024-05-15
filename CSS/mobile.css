@@ -67,6 +67,9 @@ border: none;
     }
     .container-company{
         flex-direction: column;
+justify-content:center;
+align-items: center;
+
     }
     div.founder, div.company{
         margin: 20px auto;
