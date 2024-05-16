@@ -97,7 +97,25 @@ border: none;
         gap:30px;
     }
     div.contact-column{
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
+    }
+    div.message-columns{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    div.message-column{
+        width: 100%;
+    }
+    div.message-column h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    div.message-column button{
+        margin: 20px auto;
+        width: 100%;
     }
 }
