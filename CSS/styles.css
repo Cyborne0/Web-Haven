@@ -678,3 +678,80 @@ div.phone-text h2, div.email-text h2{
     font-size: 30px;
     font-weight: bold;
 }
+div.message-columns{
+    display: flex;
+    justify-content: center;
+    
+    gap: 3%;
+    margin: 3em auto;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.808);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0px 16px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+}
+div.message-column{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.column-1{
+    width: 50%;
+}
+div.column-2{
+    width: 60%;
+}
+div.message-column h1{
+    font-size: 2em;
+    font-weight: bold;
+    
+    color: #0472e0;
+}
+div.message-column p{
+    font-size: 20px;
+    text-align: justify;
+    
+}
+div.message-column input[type="email"], div.message-column textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #0472e0;
+}
+div.message-column div#name-surname-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.message-column input[type="text"]{
+    width: 49%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #0472e0;
+}
+textarea{
+    max-height: 200px;
+    height: 200px;
+    min-height: 200px;
+    resize: none;
+}
+div.message-column label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0472e0;
+    margin: 5px 0px;
+}
+div.message-column button{
+    background-color: #0472e0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 40%;
+}
