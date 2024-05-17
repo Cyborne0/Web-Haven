@@ -118,4 +118,15 @@ border: none;
         margin: 20px auto;
         width: 100%;
     }
+    div#imageGallery{
+        flex-direction: column;
+    }
+    div#imageGallery a{
+        width: 100%;
+        
+    }
+    div.galleryContainer a#galleryButton{
+        width: 100%;
+
+    }
 }
