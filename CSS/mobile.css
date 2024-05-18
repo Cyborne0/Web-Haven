@@ -129,4 +129,24 @@ border: none;
         width: 100%;
 
     }
+    div#newsLetter{
+        width: 90%;
+    }
+    div#newsLetter h1{
+        font-size: 2em;
+    }
+    div#newsLetter div.newsLetterForm{
+        width: 100%;
+    }
+    div#newsLetter div.newsLetterForm form{
+        width: 100%;
+    }
+    div#newsLetter form input[type="email"]{
+        width: 100%;
+
+    }
+    div#newsLetter form button{
+        
+        width: 100%;
+    }
 }
