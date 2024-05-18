@@ -38,7 +38,14 @@ border: none;
     }
     .carousel-caption .btn{
         width: 98% !important;
-        background-color: #0472e0;
+        background: rgba( 0, 151, 255, 0.6 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 6px );
+        -webkit-backdrop-filter: blur( 6px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        font-size: 80%;
+        
     }
     div.alert {
         text-align: center;
@@ -86,11 +93,14 @@ border: none;
     }
 
     div.about-us-title{
-        font-size: 3.5em;
+        font-size: 3em;
         width: 100%;
     }
     div.slogan{
         font-size: 1.3em;
+    }
+    div#contactHeader{
+        font-size: 2em;
     }
     div.contact-columns{
         flex-direction: column;
@@ -149,17 +159,17 @@ border: none;
         
         width: 100%;
     }
-    div#blog{
+    div#blog, #faq{
         flex-direction: column;
         margin: 10px auto;
     }
-    div#blog div#blog-container{
+    div#blog div#blog-container, #faq div#faq-container{
         width: 100%;
         justify-content: center;
         margin: 10px auto;
         
     }
-    div#blog div#blog-container div.blog{
+    div#blog div#blog-container div.blog, #faq div#faq-container .accordion{
         width: 90%;
         margin: 20px auto;
     }
@@ -172,9 +182,15 @@ border: none;
     div#blog div#blog-container div.blog img{
         height: 200px;
     }
-    div#blog div#blog-category-container{
+    div#blog div#blog-category-container, #faq div#faq-category-container{
         width: 90%;
         margin: 20px auto;
         align-items: start;
+    }
+    h2.faq-category-header{
+        width: 90%;
+    }
+    div#blogHeader, div#faqHeader{
+        font-size: 2em;
     }
 }
