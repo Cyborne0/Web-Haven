@@ -149,4 +149,32 @@ border: none;
         
         width: 100%;
     }
+    div#blog{
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    div#blog div#blog-container{
+        width: 100%;
+        justify-content: center;
+        margin: 10px auto;
+        
+    }
+    div#blog div#blog-container div.blog{
+        width: 90%;
+        margin: 20px auto;
+    }
+    div#blog div#blog-container div.blog h2{
+        font-size: 1.2em;
+    }
+    div#blog div#blog-container div.blog p{
+        font-size: 1em;
+    }
+    div#blog div#blog-container div.blog img{
+        height: 200px;
+    }
+    div#blog div#blog-category-container{
+        width: 90%;
+        margin: 20px auto;
+        align-items: start;
+    }
 }
