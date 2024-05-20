@@ -5,7 +5,7 @@ Spletna stran je bila narejena, za zaključno nalogo pri šolskem predmetu "Obli
 Spletna stran je v celoti frontend in statična, so don't be suprissed if forms and stuff like that don't work
 
 ---
-
+FUCK CSS
 
 Spletno stran lahko dostopate <a href="https://cyborne0.github.io/web-haven.github.io/" target="_blank">Tukaj</a>
 
