@@ -193,4 +193,28 @@ border: none;
     div#blogHeader, div#faqHeader{
         font-size: 2em;
     }
+    div#sponsors-container{
+        width: 90%;
+    }
+    div#sponsors-container div.sponsor-container{
+        width: 40%;
+    }
+    div.partner-container{
+        flex-direction: column;
+    }
+    div.partner-container button{
+        width: 100%;
+    }
+    div.partner-container img{
+        width: 100%;
+    }
+    div.partner-container h1{
+        font-size: 2em !important;
+    }
+    div.partner-container p{
+        font-size: 1em !important;
+    }
+    div.hero-jobs-title, div.hero-sponsors-title, div.hero-faq-title, div.hero-blog-title{
+        font-size: 3em;
+    }
 }

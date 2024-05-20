@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTMl, CSS, Spletišče, Bootstrap, Spleten storitve">
+    <meta name="description" content="Spletišče narejeno za izmišljeno podjetje Web Haven">
+    <meta name="author" content="Matic Štucin">
+    <title>Web Haven</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    <script src="https://kit.fontawesome.com/cead8ee1bc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/mobile.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="../SLIKE/Logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="alert alert-dark alert-dismissible fade show" role="alert">
+    <strong><i class="bi bi-cookie"></i>Naša spletna stran uporablja piškotke, da izboljša vašo izkušnjo!<i class="bi bi-cookie"></i></strong>
+    <button type="button"  data-bs-dismiss="alert" aria-label="Close">Sprejmi</button>
+</div>
+
+  <nav class="navbar navbar-dark navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img src="../SLIKE/Logo.png" alt="" height="100"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html"> <i class="fas fa-home"></i> Domov</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-cogs"></i> Storitve
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Storitve/cenik.html"><i class="fas fa-coins"></i>Cenik in seznam vseh storitev</a></li>
+              <li><a class="dropdown-item" href="../Storitve/izdelava-strani.html"><i class="fas fa-code"></i> Izdelava spletne strani</a></li>
+              <li><a class="dropdown-item" href="../Storitve/gostovanje.html"><i class="fas fa-cloud"></i> Gostovanje spletnih strani</a></li>
+              <li><a class="dropdown-item" href="../Storitve/domene.html"><i class="fas fa-globe"></i> Nakup Domen</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../aboutus.html"><i class="fas fa-info-circle"></i>O nas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact-us.html"><i class="fas fa-envelope"></i> Kontakt</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../blog.html"><i class="fas fa-pen"></i> Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-plus"></i>  Ostalo...
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="pogosta-vprasanja.html"><i class="fas fa-question-circle"></i> Pogosta vprašanja</a></li>
+              <li><a class="dropdown-item active-link" href="sponzorji.html"><i class="fas fa-handshake"></i> Partnerji in sponzorji</a></li>
+              <li><a class="dropdown-item" href="projekti.html"><i class="fas fa-folder-open"></i>Naši projekti</a></li> 
+              <li><a class="dropdown-item" href="delo.html"><i class="fas fa-briefcase"></i> Delovna mesta</a></li> 
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="hero hero-jobs"><div class="hero-jobs-title"><i class="fas fa fas fas fas fa-briefcase"></i> Pridružite se naši ekipi </div></div>
+  
+  <div id="jobs-container">
+    <div class="jobs-search-container">
+          <div class="search-jobs-icon"><i class="fa fas fa-search"></i></div>
+          <input type="text" class="search-jobs-input" placeholder="Naslov delovnega mesta">
+          <div class="search-jobs-icon"><i class="fa fas fa-briefcase"></i></div>
+          <select name="" id="">
+              <option value="disabled" selected disabled>Tip delovnega mesta</option>
+              <option value="polno">Dolgotrajno delo</option>
+              <option value="">Občasna zaposlitev</option>
+              <option value="">Začasna zaposlitev</option>
+              <option value="">Praktično usposabljanje</option>
+          </select>
+          <button>Poišči delo</button>
+      </div>
+      <div class="job-container">
+        <div class="job-container-column-1">
+          <h1><i class="fas fa-briefcase"></i> Job name</h1>
+          <p>Job description</p>
+          <div class="job-categories">
+            <div class="job-category">Category 1</div>
+            <div class="job-category">Category 2</div>
+            <div class="job-category">Category 3</div>
+          </div>
+          
+        </div>
+        <div class="job-container-column-2">
+          <p class="job-salary"><i class="fas fa-coins"></i>Job Salary/<span class="job-salary-year">Year</span></p>
+          <button>Apply</button>
+        </div>
+      </div>
+
+      <div class="job-container">
+        <div class="job-container-column-1">
+          <h1><i class="fas fa-briefcase"></i> Job name</h1>
+          <p>Job description</p>
+          <div class="job-categories">
+            <div class="job-category">Category 1</div>
+            <div class="job-category">Category 2</div>
+            <div class="job-category">Category 3</div>
+          </div>
+          
+        </div>
+        <div class="job-container-column-2">
+          <p class="job-salary"><i class="fas fa-coins"></i>Job Salary/<span class="job-salary-year">Year</span></p>
+          <button>Apply</button>
+        </div>
+      </div>
+
+      <div class="job-container">
+        <div class="job-container-column-1">
+          <h1><i class="fas fa-briefcase"></i> Job name</h1>
+          <p>Job description</p>
+          <div class="job-categories">
+            <div class="job-category">Category 1</div>
+            <div class="job-category">Category 2</div>
+            <div class="job-category">Category 3</div>
+          </div>
+          
+        </div>
+        <div class="job-container-column-2">
+          <p class="job-salary"><i class="fas fa-coins"></i>Job Salary/<span class="job-salary-year">Year</span></p>
+          <button>Apply</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid text-center">
+    <div class="row">
+      <!-- Socialne ikone -->
+      <div class="nogaLevo col-sm-6">
+        <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+        <a href="#" data-toggle="tooltip" data-placement="top" title="Snapchat"><i class="fa fa-snapchat-square fa-2x" aria-hidden="true"></i></a>
+      </div>
+      <div class="nogaDesno col-sm-6">
+        © Web Haven 2024. Vse pravice pridržane.
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
