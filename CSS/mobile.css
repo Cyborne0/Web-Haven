@@ -217,4 +217,57 @@ border: none;
     div.hero-jobs-title, div.hero-sponsors-title, div.hero-faq-title, div.hero-blog-title{
         font-size: 3em;
     }
+    #jobs-container{
+        width: 90% !important;
+    }
+    div.jobs-search-container{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    div.jobs-search-container div.form-group, div.jobs-search-container  button{
+        width: 90%;
+    }
+    div.jobs-search-container button{
+        border-radius: 0px 0px 10px 10px;
+    }
+    div.job-container{
+        width: 90%;
+        margin: 20px auto;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    div.job-container .job-container-column-1, div.job-container .job-container-column-2{
+        width: 100%;
+        padding: ;
+    }
+    div.job-container .job-container-column-1{
+        border-right: none;
+        border-bottom: 2px solid #0472e0;
+    }
+    div.job-container .job-container-column-2{
+       display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    div.job-container div.job-categories{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    div.job-container div.job-categories .job-category{
+        width: 90%;
+        text-align: center;
+    }
+    div.job-container h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2em;
+        text-align: center;
+    }
+
 }
