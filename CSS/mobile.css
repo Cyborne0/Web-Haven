@@ -240,7 +240,7 @@ border: none;
     }
     div.job-container .job-container-column-1, div.job-container .job-container-column-2{
         width: 100%;
-        padding: ;
+        
     }
     div.job-container .job-container-column-1{
         border-right: none;
@@ -269,5 +269,72 @@ border: none;
         font-size: 2em;
         text-align: center;
     }
+    div.project-container{
+        width: 90%;
+        margin: 20px auto;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    div.project-container .column{
+        width: 100%;
+    }
+    div.tech-container{
+        width: 50%;
+        margin: 20px auto;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    div.project-container h3, div.project-container h2{
+        text-align: center !important; 
+        
 
+    }
+    div.project-container a{
+        margin-bottom: 20px;
+    }
+    div.table-container{
+        width: 95% !important;
+        margin: 20px auto;
+    }
+    div.custom-page-design-container{
+        flex-direction: column;
+    }
+    div.custom-page-design-container img{
+        width: 100%;
+    }
+    .custom-page-design-button{
+        margin: 20px auto;
+        width: 60%;
+    }
+    #website-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    div.website-card{
+        width: 90%;
+    }
+    div.input-group-domains{
+        width: 90%;
+    }
+    h1.domain-header{
+        font-size: 2em;
+    }
+    h2.domain-sub-header{
+        font-size: 1.3em;
+    }
+    div.domain-price-container{
+        width: 90%;
+    }
+    .domain-price-container h3{
+        font-size: 1.3em;
+    }
+    .domain-price-container p{
+        font-size: 15px;
+    }
+    h1.domain-count{
+        font-size: 1.7em;
+    }
+    div.tehnologije img{
+        transform: scale(0.8);
+    }
 }
